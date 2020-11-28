@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import StarWarsPeople from './starwarspeople';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StarWarsPeople />
   </React.StrictMode>,
   document.getElementById('root')
 );
