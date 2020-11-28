@@ -1,4 +1,5 @@
 import "./App.css";
+import Alert from "./Alert";
 import React from "react";
 import logo from "./logo.svg";
 export default class App extends React.Component {
@@ -32,6 +33,7 @@ export default class App extends React.Component {
             Learn React
           </a>
           <div> {this.state.counter} </div>
+          <Alert count={this.state.counter}></Alert>
         </header>
       </div>
     );
